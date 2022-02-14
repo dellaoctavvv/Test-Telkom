@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "728aefd3-24df-4c4b-b66c-f3c8c9f5b1de",
+		"name": "Indihome",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://62708f1f-c256-4cca-ad04-1c09a37e3632.mock.pstmn.io",
+					"protocol": "https",
+					"host": [
+						"62708f1f-c256-4cca-ad04-1c09a37e3632",
+						"mock",
+						"pstmn",
+						"io"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://62708f1f-c256-4cca-ad04-1c09a37e3632.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"62708f1f-c256-4cca-ad04-1c09a37e3632",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 14 Feb 2022 06:59:04 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=9b943367561529c7"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=4a0003946dd02424"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "117"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1644821979"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1fe2-c5thl9p7YODPI+vVAnPIkhwKAn8\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"code\": \"200\",\n  \"info\": \"okay\",\n  \"data\": [\n    {\n      \"kecepatan\": \"20 Mbps\",\n      \"logo\": \"https://subsystem.indihome.co.id/cms-ih/assets/uploads/promorec/IndiHome-Paket-Pelajar-Pengajar-Jurnalis_D.jpg\"\n      \"nama_produk\": \"2P (Internet + Phone) Penawaran Khusus\",\n      \"deskripsi\": \"\n<ol>\\r\\n\n    <li>Pelanggan bisa mendapatkan bonus cashback saldo LinkAja Rp100.000 berlaku untuk pelanggan yang berlangganan melalui indihome.co.id, aplikasi myIndiHome, Tokopedia, Shopee, Bukalapak, Kios myIndiHome, atau Sobat IndiHome, sebagaimana berlaku. Cashback LinkAja akan diberikan saat pelanggan melakukan pembayaran tagihan di bulan pertama dan pelanggan wajib mengaktifkan aplikasi LinkAja terlebih dahulu.</li>\\r\\n\n    <li>Khusus untuk kecepatan 20 Mbps, registrasi berlangganan tidak dapat dilakukan melalui Sobat IndiHome.</li>\\r\\n\n    <li>Kontrak berlangganan IndiHome berlaku selama minimal 12 (dua belas) bulan setelah layanan IndiHome berstatus aktif. Apabila pelanggan memutuskan untuk berhenti berlangganan sebelum masa berlaku kontrak berakhir, maka akan dikenakan denda sebesar Rp1.000.000.</li>\\r\\n\n    <li>Tagihan IndiHome akan ditagihkan kepada pelanggan tiap bulan atas dasar pasca bayar, dan akan diprorata di bulan pertama.</li>\\r\\n\n    <li>Pelanggan dilarang menjual kembali, baik sebagian atau seluruh layanan IndiHome dan dilarang mengalihkan, mengubah, atau menyalahgunakan setiap jaringan IndiHome dan layanan IndiHome.</li>\\r\\n\n    <li>IndiHome menyediakan ONT selama berlangganan.</li>\\r\\n\n    <li>Pelanggan dapat dikenakan materai atas pembayaran tagihan IndiHome sesuai dengan ketentuan yang berlaku. Info lengkap \n        <a href=\\\"https://tlkm.id/Rx6mkB\\\">https://tlkm.id/Rx6mkB. </a>\n    </li>\\r\\n\n    <li>Biaya Pemasangan Baru (PSB) IndiHome sebesar Rp 500.000 dibayarkan setelah proses pemasangan perangkat layanan IndiHome selesai. Pelanggan tidak diperbolehkan melakukan pembayaran secara tunai selain di Plasa Telkom.  \n        <br>\n        <img src='https://indihome.co.id/images/landingpage/biaya-psb.jpeg' width='100%'>\n    </li>\\r\\n\n    <li>Harga Paket belum termasuk PPN 10%</li>\\r\\n\n</ol>\"\n    },\n    {\n      \"kecepatan\": \"30 Mbps\",\n      \"logo\": \"https://subsystem.indihome.co.id/cms-ih/assets/uploads/promorec/IndiHome-Paket-Pelajar-Pengajar-Jurnalis_D.jpg\"\n      \"nama_produk\": \"2P Internet + TV (Dengan Disney+ Hotstar)\",\n      \"deskripsi\": \"\n<ol>\\r\\n\n    <li>Paket IndiHome (Dengan Akses Disney+ Hotstar) ini tersedia untuk pelanggan baru IndiHome dan pelanggan lama IndiHome yang ingin melakukan upgrade ke paket baru ini. Masa berlangganan minimal 12 bulan.</li>\\r\\n\n    <li>Untuk pilihan Paket 3P (Internet + TV + Telepon) dan 2P (Internet + TV), bonus Add-On Minipack IndiMovie 2, CATCHPLAY+, Iflix, MOLA dan Vidio hanya berlaku untuk pelanggan yang berlangganan dengan kecepatan minimal 50 Mbps.</li>\\r\\n\n    <li>Pelanggan bisa mendapatkan bonus 53 channel Minipack Upgrade Essential selama 3 bulan berlaku untuk pelanggan yang berlangganan Paket 3P (Internet + TV + Telepon) dan Paket 2P (Internet + TV) melalui indihome.co.id, aplikasi myIndiHome, Tokopedia, Shopee, Bukalapak, Kios myIndiHome, atau Sobat IndiHome, sebagaimana berlaku.</li>\\r\\n\n    <li>Pelanggan bisa mendapatkan bonus cashback saldo LinkAja Rp100.000 berlaku untuk pelanggan yang berlangganan melalui indihome.co.id, aplikasi myIndiHome, Tokopedia, Shopee, Bukalapak, Kios myIndiHome, atau Sobat IndiHome, sebagaimana berlaku. Cashback LinkAja akan diberikan saat pelanggan melakukan pembayaran tagihan di bulan pertama dan pelanggan harus mengaktifkan aplikasi LinkAja terlebih dahulu.</li>\\r\\n\n    <li>Bagi pelanggan yang ingin berlangganan Paket 3P (Internet + TV + Telepon) dengan kecepatan 200 Mbps atau 300 Mbps, pendaftaran berlangganan hanya dapat dilakukan melalui Plasa Telkom terdekat.</li>\\r\\n\n    <li>Paket 3P (Internet + TV + Telepon) dan Paket 2P (Internet + TV) sudah termasuk paket TV Entry. Jumlah saluran dan konten TV Interaktif dapat berubah. Info channel bisa dilihat di indihome.co.id/tv/channel.</li>\\r\\n\n    <li>Layanan CATCHPLAY+ tidak berlaku untuk Single Rental.</li>\\r\\n\n    <li>Paket 3P (Internet + TV + Telepon) dan 2P (Internet + TV) sudah termasuk akses ke Disney+ Hotstar tanpa biaya tambahan dan aplikasi UseeTV GO. Bagi pelanggan yang berlangganan Paket 3P (Internet + TV + Phone) dan 2P (Internet + TV) IndiHome dengan kecepatan minimal 50 Mbps juga mendapatkan akses gratis aplikasi HBO GO. Aplikasi Disney+ Hotstar dan HBO GO dapat diunduh melalui Google Play Store dan Apple App Store. Syarat dan ketentuan tambahan terkait Disney+ Hotstar diatur pada poin 10.</li>\\r\\n\n    <li>Paket 2P (Internet + Telepon) sudah termasuk akses Disney+ Hotstar tanpa biaya tambahan, yang dapat diunduh melalui Google Play Store dan Apple App Store. Syarat dan ketentuan tambahan terkait Disney+ Hotstar diatur pada poin 10.</li>\\r\\n\n    <li>Syarat & Ketentuan terkait Layanan Disney+ Hotstar:\\r\\n\n        <ol>\\r\\n\n            <li>Paket IndiHome (Dengan Akses Disney+ Hotstar) ini tersedia untuk pelanggan baru IndiHome dan pelanggan lama IndiHome yang ingin melakukan upgrade pada paketnya. Disney+ Hotstar adalah layanan berlangganan berbayar (tarif pasar yang berlaku saat ini senilai Rp 39.000/ bulan (termasuk 10% PPN) atau Rp199.000/tahun (termasuk 10% PPN)), yang Anda akan terima sebagai bagian dari Paket IndiHome (Dengan Akses Disney+ Hotstar) yang Anda pilih, tanpa biaya tambahan. Untuk menjadi pelanggan Disney+ Hotstar, Anda harus menyelesaikan langkah-langkah untuk login pertama kali sebagaimana disebutkan pada poin 10.2.</li>\\r\\n\n            <li>Saat login pertama kali di Disney+ Hotstar, Anda perlu membuat akun Disney+ Hotstar, dan menerima Ketentuan Penggunaan dan Kebijakan Privasi Disney+ Hotstar.</li>\\r\\n\n            <li>Dengan mengaktifkan Disney+ Hotstar di IndiHome, Anda menyetujui:\\r\\n\n                <ol>\\r\\n\n                    <li>Ketentuan Layanan & Kebijakan Privasi IndiHome.</li>\\r\\n\n                    <li>Ketentuan Penggunaan layanan Disney+ Hotstar.</li>\\r\\n\n                    <li>Kebijakan Privasi layanan Disney+ Hotstar.</li>\\r\\n\n                    <li>Untuk dapat menonton berbagai tayangan di Disney+ Hotstar, Anda dapat mengunduh aplikasi Disney+ Hotstar di Google Play Store (Android) atau Apple App Store (iOS) atau di perangkat rumah (antara lain Android TV, Chromecast, Apple TV) yang mendukung dan masuk menggunakan nomor seluler Anda yang terdaftar di IndiHome. Anda juga dapat mengunjungi situs web Disney+ Hotstar di https://www.hotstar.com/id melalui browser Anda. Untuk informasi lebih lanjut tentang perangkat yang mendukung, silakan kunjungi \n                        <a href=\\\"https://help.hotstar.com/idn/id/support/home\\\">https://help.hotstar.com/idn/id/support/home</a>.\n                    </li>\\r\\n\n                    <li>Dengan membeli paket ini, Anda setuju bahwa nomor seluler Anda akan diteruskan ke Disney untuk tujuan pengaktifan layanan Disney+ Hotstar.</li>\\r\\n\n                    <li>Biaya berlangganan Disney+ Hotstar Anda tidak dapat dikembalikan dan akses akan dimulai pada hari dimana Paket IndiHome (Dengan Akses Disney+ Hotstar) Anda dimulai, terlepas dari apakah Anda mengaktifkan langganan Disney+ Hotstar, dan akan terus berlanjut sampai langganan Disney+ Hotstar Anda berakhir.</li>\\r\\n\n                </ol>\\r\\n\n            </li>\\r\\n\n        </ol>\\r\\n\n    </li>\\r\\n\n    <li>Kontrak berlangganan IndiHome berlaku selama minimal 12 (dua belas) bulan setelah layanan IndiHome berstatus aktif. Apabila pelanggan memutuskan untuk berhenti berlangganan sebelum masa berlaku kontrak berakhir, maka akan dikenakan denda sebesar Rp1.000.000.</li>\\r\\n\n    <li>Tagihan IndiHome akan ditagihkan kepada pelanggan tiap bulan atas dasar pasca bayar, dan akan diprorata di bulan pertama.</li>\\r\\n\n    <li>Pelanggan dilarang menjual kembali, baik sebagian atau seluruh layanan IndiHome dan dilarang mengalihkan, mengubah, atau menyalahgunakan setiap jaringan IndiHome dan layanan IndiHome.</li>\\r\\n\n    <li>IndiHome menyediakan Hybrid Box (STB) dan ONT selama berlangganan.</li>\\r\\n\n    <li>Pelanggan dapat dikenakan materai atas pembayaran tagihan IndiHome sesuai dengan ketentuan yang berlaku. Info lengkap \n        <a href=\\\"https://tlkm.id/Rx6mkB\\\">https://tlkm.id/Rx6mkB</a>.\n    </li>\\r\\n\n    <li>Biaya Pemasangan Baru (PSB) IndiHome sebesar Rp500.000 dibayarkan setelah proses pemasangan perangkat layanan IndiHome selesai. Pelanggan tidak diperbolehkan melakukan pembayaran secara tunai selain di Plasa Telkom.</li>\\r\\n\n    <li>Harga Paket belum termasuk PPN 10%.\\\"</li>\\r\\n\n</ol>\"\n    }\n  ]\n}"
+				}
+			]
+		}
+	]
+}
